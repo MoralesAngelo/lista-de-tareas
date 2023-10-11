@@ -1,0 +1,18 @@
+.containerHeader {
+    background-color: sandybrown;
+    display: flex;
+    min-height: 20vh;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px black;
+    position: sticky;
+    top: 0px;
+}
+
+
+main {
+        min-height: 55vh;
+        padding: 1rem
+}
