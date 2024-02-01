@@ -1,7 +1,9 @@
 import  { useEffect, useState } from 'react'
 
-export const useTask = () => {
+export const useTask = (task) => {
     const [taskItems, setTaskItems] = useState([])
+
+    
 
     useEffect(() => {
         let data = localStorage.getItem('task')
@@ -27,10 +29,15 @@ export const useTask = () => {
       )
     }
 
+  
+
+
+
   return {
     taskItems,
     addTask,
-    toggleTask
+    toggleTask,
+    
   }
   
 }
